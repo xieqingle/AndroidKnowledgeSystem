@@ -5,21 +5,22 @@
 * [移动端开发的未来方向](0. 方向/移动端开发的未来方向.md)
 
 ## 一、系统源码学习
+
 * 组件
 
 	* 四大组件解析
 
-		* Activity
+		* [Activity](1. 系统源码/组件/Activity.md)
 
-			* Activity的启动过程
+			* [Activity的启动过程](1. 系统源码/组件/Activity.md)
 
-			* 启动流程和启动模式
+			* [启动流程和启动模式](1. 系统源码/组件/Activity.md)
 
-			* 生命周期
+			* [生命周期](1. 系统源码/组件/Activity.md)
 
-			* 与Window/View的关系
+			* [与Window/View的关系](1. 系统源码/组件/Activity.md)
 
-			* 与Fragment的关系
+			* [与Fragment的关系](1. 系统源码/组件/Activity.md)
 
 		* Service
 
@@ -95,13 +96,15 @@
 
 * [设计模式](2. 架构能力/设计模式/设计模式.md)
 
-* 架构模式
+* [组件化](2. 架构能力/组件化.md)
+
+* [架构的思考与架构模式](2. 架构能力/架构的思考与架构模式.md)
+
+	* [技术选型](2. 架构能力/架构师必备能力之技术选型.md)
 
 	* MVP
 
 	* MVVM
-
-		* DataBinding
 
 	* Flux
 
@@ -227,19 +230,17 @@
 
 	* 自定义控件
 
-		* 事件分发机制
+	* [事件分发机制](5. 常见机制/事件分发机制.md)
 
-		* 自定义动画
+	* 动画
 
-		* Lottie动画解析库
-
-		* 绘制
+	* 绘制
 
 * Android消息机制
 
-* 本地存储
+* [存储大家庭](5. 常见机制/存储大家庭.md)
 
-	* Sqlite、SharedPreferences、文件
+	* [Sqlite、SharedPreferences、MMKV、文件](5. 常见机制/存储大家庭.md)
 
 * 资源管理系统、资源加载机制
 
@@ -262,8 +263,8 @@
 		* [HashMap](6. 基础能力/集合/HashMap.md)    
 		* [LinkedHashMap](6. 基础能力/集合/LinkedHashMap.md)    
 		* HashTable  
-		* CurrentHashMap  
-		* TreeMap  
+		* [ConcurrentHashMap](6. 基础能力/集合/ConcurrentHashMap.md)  
+		* [TreeMap](6. 基础能力/集合/TreeMap.md)  
 		* [SparseArray](6. 基础能力/集合/SparseArray.md)  
 	
 * [数据结构和算法](6. 基础能力/数据结构与算法.md)
@@ -355,10 +356,6 @@
 	* Vue
 	
 	* 小程序
-	
-* 组件化
-
-	* 页面路由
 
 * 消息推送&保活
 
@@ -418,65 +415,69 @@
 
 		* 视频滤镜
 
-* 性能优化
+* [性能优化](7. 进阶/性能优化/性能优化之怎么学.md)
+
+	* [性能优化之怎么学?](7. 进阶/性能优化/性能优化之怎么学.md)
+
+	* [性能分析工具和线上监控](7. 进阶/性能优化/性能之神兵利器.md)
 
 	* 启动时间和冷启动优化
-
+	
 		* 避免启动白屏
-
+	
 	* Crash 收集分析
-
+	
 	* 卡顿检测和优化
-
+	
 		* ARR
-
+	
 		* 避免频繁GC
-
+	
 		* ViewHolder
-
+	
 	* 布局优化
-
+	
 		* include、merge、ViewStub的使用
-
+	
 	* 线程优化
-
+	
 	* 监控
-
+	
 		* 埋点
-
+	
 		* APM性能检测
-
+	
 		* WebView性能监控
-
+	
 		* leakcanary内存泄露监控
-
+	
 	* 内存优化
-
+	
 		* OOM
-
+	
 		* 内存泄露
-
+	
 		* 图片压缩
-
+	
 		* 内存分析
-
+	
 	* apk瘦身
-
-	* 电量优化
-
-	* 网络优化
-
+	
+	* [电量优化](7. 进阶/性能优化/电量优化.md)
+	
+	* [网络优化](7. 进阶/性能优化/网络优化.md)
+	
 		* 网络调试
-
+	
 		* 低网速优化
-
+	
 		* API优化
-
+	
 		* 流量优化
+	
+	* 持续集成
 
-* 持续集成
-
-	* Jenkins
+		* Jenkins
 
 ## 八、其他
 
@@ -489,6 +490,8 @@
 	* SELinux
 	
 	* [MMAP内存映射技术](8. 其他/Linux/MMAP内存映射技术.md)
+
+	* [IO多路复用](8. 其他/Linux/IO多路复用.md)
 
 * Docker
 
